@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 248, 247);
+  border: 2px solid rgb(55, 228, 170);
+}
+.inputLabel {
+  margin: 20px;
+  display: flex;
+  .input {
+    margin-left: auto;
+    width: 50%;
+  }
+}
+
+.valid {
+  border: 2px solid green;
+}
+.invalid {
+  border: 2px solid red;
+}
+
+.btnLabel {
+  margin: 20px;
+  display: flex;
+  .btnSignUp {
+    margin: 0 auto;
+    height: 30px;
+    background-color: rgb(150, 214, 211);
+    border: 3px solid rgb(49, 221, 195);
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
