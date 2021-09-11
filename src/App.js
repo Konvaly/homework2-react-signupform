@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import SignUpForm from './components/SignUpForm';
+import Calendar from './components/Calendar';
 
 function App () {
-  return <SignUpForm />;
+  return <Calendar />;
 }
 
 export default App;
